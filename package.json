@@ -1,7 +1,7 @@
 {
   "name": "wavelink_sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +13,13 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeftisDragon/WaveLink.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NeftisDragon/WaveLink/issues"
+  },
+  "homepage": "https://github.com/NeftisDragon/WaveLink#readme"
 }
