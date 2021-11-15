@@ -289,7 +289,7 @@ header {
 .serviceDescription {
   line-height: 1.5;
   font-size: 20px;
-  width: 350px;
+  width: 310px;
   text-align: left; }
 
 .video {
@@ -1632,15 +1632,14 @@ footer a {
   /*Homepage*/
   .img-index-container {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .img-index {
     position: relative;
     text-align: center;
     display: inline-block;
-    height: 737px;
-    overflow: hidden;
+    height: auto;
     margin: 20px; }
   .img-index a {
     color: #F1A803; }
@@ -1709,8 +1708,8 @@ footer a {
   .serviceDescription {
     line-height: 1.5;
     font-size: 20px;
-    width: 350px;
-    text-align: left; }
+    width: 310px;
+    text-align: justify; }
   .video {
     width: 100%; }
   .container {
@@ -2237,15 +2236,14 @@ footer a {
   /*Homepage*/
   .img-index-container {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .img-index {
     position: relative;
     text-align: center;
     display: inline-block;
-    height: 670px;
-    overflow: hidden;
+    height: auto;
     margin: 20px; }
   .img-index a {
     color: #F1A803; }
@@ -2314,8 +2312,8 @@ footer a {
   .serviceDescription {
     line-height: 1.5;
     font-size: 20px;
-    width: 350px;
-    text-align: left; }
+    width: 310px;
+    text-align: justify; }
   .video {
     width: 100%; }
   .container {
@@ -2888,15 +2886,14 @@ footer a {
   /*Homepage*/
   .img-index-container {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .img-index {
     position: relative;
     text-align: center;
     display: inline-block;
-    height: 510px;
-    overflow: hidden;
+    height: auto;
     margin: 20px; }
   .img-index a {
     color: #F1A803; }
@@ -2965,8 +2962,8 @@ footer a {
   .serviceDescription {
     line-height: 1.5;
     font-size: 20px;
-    width: 350px;
-    text-align: left; }
+    width: 310px;
+    text-align: justify; }
   .video {
     width: 100%; }
   .container {
@@ -3554,16 +3551,15 @@ footer a {
   /*Homepage*/
   .img-index-container {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .img-index {
     position: relative;
     text-align: center;
     display: inline-block;
-    height: 390px;
-    overflow: hidden;
-    margin: 10px; }
+    height: auto;
+    margin: 20px; }
   .img-index a {
     color: #F1A803; }
   .img-index img {
@@ -3631,8 +3627,8 @@ footer a {
   .serviceDescription {
     line-height: 1.5;
     font-size: 20px;
-    width: 350px;
-    text-align: left; }
+    width: 310px;
+    text-align: justify; }
   .video {
     width: 100%; }
   .container {
@@ -4232,15 +4228,14 @@ footer a {
   /*Homepage*/
   .img-index-container {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .img-index {
     position: relative;
     text-align: center;
     display: inline-block;
-    height: 320px;
-    overflow: hidden;
+    height: auto;
     margin: 10px; }
   .img-index a {
     color: #F1A803; }
@@ -4955,15 +4950,14 @@ footer a {
   /*Homepage*/
   .img-index-container {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
   .img-index {
     position: relative;
     text-align: center;
     display: inline-block;
-    height: 210px;
-    overflow: hidden;
+    height: auto;
     margin: 8px; }
   .img-index a {
     color: #F1A803; }
@@ -5032,8 +5026,8 @@ footer a {
   .serviceDescription {
     line-height: 1.5;
     font-size: 18px;
-    width: 300px;
-    text-align: left; }
+    width: auto;
+    text-align: justify; }
   .video {
     width: 100%; }
   .container {

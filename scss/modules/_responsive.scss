@@ -808,7 +808,7 @@
     /*Homepage*/
     .img-index-container {
         display: flex;
-        flex-flow: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -817,8 +817,7 @@
         position: relative;
         text-align: center;
         display: inline-block;
-        height: 737px;
-        overflow: hidden;
+        height: auto;
         margin: 20px;
     }
 
@@ -925,8 +924,8 @@
     .serviceDescription {
         line-height: 1.5;
         font-size: 20px;
-        width: 350px;
-        text-align: left;
+        width: 310px;
+        text-align: justify;
     }
 
     .video {
@@ -1732,7 +1731,7 @@
     /*Homepage*/
     .img-index-container {
         display: flex;
-        flex-flow: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -1741,8 +1740,7 @@
         position: relative;
         text-align: center;
         display: inline-block;
-        height: 670px;
-        overflow: hidden;
+        height: auto;
         margin: 20px;
     }
 
@@ -1849,8 +1847,8 @@
     .serviceDescription {
         line-height: 1.5;
         font-size: 20px;
-        width: 350px;
-        text-align: left;
+        width: 310px;
+        text-align: justify;
     }
 
     .video {
@@ -2731,7 +2729,7 @@
     /*Homepage*/
     .img-index-container {
         display: flex;
-        flex-flow: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -2740,8 +2738,7 @@
         position: relative;
         text-align: center;
         display: inline-block;
-        height: 510px;
-        overflow: hidden;
+        height: auto;
         margin: 20px;
     }
 
@@ -2850,8 +2847,8 @@
     .serviceDescription {
         line-height: 1.5;
         font-size: 20px;
-        width: 350px;
-        text-align: left;
+        width: 310px;
+        text-align: justify;
     }
 
     .video {
@@ -3751,7 +3748,7 @@
     /*Homepage*/
     .img-index-container {
         display: flex;
-        flex-flow: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -3760,9 +3757,8 @@
         position: relative;
         text-align: center;
         display: inline-block;
-        height: 390px;
-        overflow: hidden;
-        margin: 10px;
+        height: auto;
+        margin: 20px;
     }
 
     .img-index a {
@@ -3870,8 +3866,8 @@
     .serviceDescription {
         line-height: 1.5;
         font-size: 20px;
-        width: 350px;
-        text-align: left;
+        width: 310px;
+        text-align: justify;
     }
 
     .video {
@@ -4789,7 +4785,7 @@
     /*Homepage*/
     .img-index-container {
         display: flex;
-        flex-flow: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -4798,8 +4794,7 @@
         position: relative;
         text-align: center;
         display: inline-block;
-        height: 320px;
-        overflow: hidden;
+        height: auto;
         margin: 10px;
     }
 
@@ -5892,7 +5887,7 @@
     /*Homepage*/
     .img-index-container {
         display: flex;
-        flex-flow: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -5901,8 +5896,7 @@
         position: relative;
         text-align: center;
         display: inline-block;
-        height: 210px;
-        overflow: hidden;
+        height: auto;
         margin: 8px;
     }
 
@@ -6011,8 +6005,8 @@
     .serviceDescription {
         line-height: 1.5;
         font-size: 18px;
-        width: 300px;
-        text-align: left;
+        width: auto;
+        text-align: justify;
     }
 
     .video {
