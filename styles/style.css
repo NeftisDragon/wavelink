@@ -884,7 +884,7 @@ table th {
 
 .clients-container {
   padding: 20px 40px;
-  border-radius: 20PX; }
+  border-radius: 20px; }
 
 .clients {
   display: block;
@@ -1412,7 +1412,7 @@ footer a {
     font-size: 24px; }
   .clients-container {
     padding: 20px 40px;
-    border-radius: 20PX; }
+    border-radius: 20px; }
   .clients {
     display: block;
     margin: 40px 0px; }
@@ -2007,7 +2007,7 @@ footer a {
     font-size: 24px; }
   .clients-container {
     padding: 20px 40px;
-    border-radius: 20PX; }
+    border-radius: 20px; }
   .clients {
     display: block;
     margin: 40px 0px; }
@@ -2610,7 +2610,7 @@ footer a {
     font-size: 24px; }
   .clients-container {
     padding: 20px 10px;
-    border-radius: 20PX;
+    border-radius: 20px;
     text-align: center; }
   .clients {
     display: inline-block;
@@ -3261,7 +3261,7 @@ footer a {
     font-size: 24px; }
   .clients-container {
     padding: 20px 40px;
-    border-radius: 20PX; }
+    border-radius: 20px; }
   .clients {
     display: block;
     margin: 40px 0px; }
@@ -3936,7 +3936,7 @@ footer a {
     font-size: 24px; }
   .clients-container {
     padding: 20px 40px;
-    border-radius: 20PX; }
+    border-radius: 20px; }
   .clients {
     display: block;
     margin: 40px 0px; }
@@ -4656,7 +4656,8 @@ footer a {
   .clients-container {
     width: 300px;
     padding: 20px 0px;
-    border-radius: 20PX; }
+    border-radius: 20px;
+    display: none; }
   .clients {
     display: block;
     margin: 40px 0px; }
@@ -5379,7 +5380,8 @@ footer a {
   .clients-container {
     width: 300px;
     padding: 20px 0px;
-    border-radius: 20PX; }
+    border-radius: 20px;
+    display: none; }
   .clients {
     display: block;
     margin: 40px 0px; }
