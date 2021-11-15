@@ -180,7 +180,7 @@ header {
 /*Homepage*/
 .img-index-container {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -189,7 +189,7 @@ header {
     position: relative;
     text-align: center;
     display: inline-block;
-    height: 737px;
+    height: auto;
     overflow: hidden;
     margin: 8px;
 }
