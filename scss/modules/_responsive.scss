@@ -1461,6 +1461,13 @@
         margin-top: 30px;
         margin-bottom: 20px;
     }
+
+    .code {
+        background-image: url(../assets/images/the-code-html.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
 }
 
 /*****1024*****/
@@ -2384,9 +2391,32 @@
         margin-bottom: 20px;
     }
 
+    .code {
+        background-image: url(../assets/images/the-code-html.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .code hr {
+        width: 50%;
+        margin: 0px auto 50px;
+        background-color: #abaaaa;
+        height: 1;
+    }
+
     /*****FOOTER*****/
     footer {
         background-color: #F5F5F5;
+    }
+
+    footer aside {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer aside a {
+        display: inline;
     }
 
     .footerNav-container {
@@ -2408,6 +2438,10 @@
 
     .footerNav ul h3 {
         margin-bottom: 10px;
+    }
+
+    footer hr {
+        display: none;
     }
 
     /*Policies*/
@@ -3384,6 +3418,20 @@
         margin-bottom: 20px;
     }
 
+    .code {
+        background-image: url(../assets/images/the-code-html-1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .code hr {
+        width: 70%;
+        margin: 0px auto 50px;
+        background-color: #abaaaa;
+        height: 1;
+    }
+
     /*****FOOTER*****/
     footer {
         background-color: #F5F5F5;
@@ -3411,6 +3459,10 @@
     }
 
     /*Policies*/
+    .website-disclaimer {
+        text-align: center;
+    }
+
     .policies-container {
         display: grid;
         grid-template-areas:
@@ -4415,6 +4467,20 @@
         color: #000000;
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+
+    .code {
+        background-image: url(../assets/images/the-code-html-1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .code hr {
+        width: 70%;
+        margin: 0px auto 50px;
+        background-color: #abaaaa;
+        height: 1;
     }
 
     /*****FOOTER*****/
@@ -5516,6 +5582,33 @@
         margin-bottom: 20px;
     }
 
+    .codeTitle {
+        text-align: center;
+        font-size: 62px;
+        font-family: 'Roboto', sans-serif;
+        margin: 20px 0px 40px 0px;
+    }
+
+    .languagesTitle {
+        text-align: center;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .code {
+        background-image: url(../assets/images/the-code-html-1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .code hr {
+        width: 80%;
+        margin: 0px auto 50px;
+        background-color: #abaaaa;
+        height: 1;
+    }
+
     /*****FOOTER*****/
     footer {
         background-color: #F5F5F5;
@@ -5543,6 +5636,10 @@
     }
 
     /*Policies*/
+    .website-disclaimer {
+        text-align: left;
+    }
+
     .policies-container {
         display: grid;
         grid-template-areas:
@@ -6618,6 +6715,41 @@
         color: #000000;
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+
+    .codeTitle {
+        text-align: center;
+        font-size: 56px;
+        font-family: 'Roboto', sans-serif;
+        margin: 20px 0px 40px 0px;
+    }
+
+    .languagesTitle {
+        text-align: center;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    .code {
+        background-image: url(../assets/images/the-code-1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .code hr {
+        width: 60%;
+        margin: 0px auto 50px;
+        background-color: #abaaaa;
+        height: 1;
+    }
+
+    .language-sass {
+        display: block;
+        width: 160px;
+        height: 160px;
+        margin: 0px auto 40px auto;
     }
 
     /*****FOOTER*****/

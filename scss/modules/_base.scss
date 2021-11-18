@@ -1101,9 +1101,57 @@ table th {
     margin-bottom: 20px;
 }
 
+.code {
+    background-image: url(../assets/images/the-code.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.codeTitle {
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0px 40px 0px;
+}
+
+.languagesTitle {
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+.languages-container {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.language {
+    display: inline-block;
+    margin: 40px 30px;
+}
+
+.code hr {
+    width: 30%;
+    margin: 0px auto 50px;
+    background-color: #abaaaa;
+    height: 1;
+}
+
+.language-sass {
+    display: block;
+    margin: 0px auto 40px auto;
+}
+
 /*****FOOTER*****/
 footer {
     background-color: #F5F5F5;
+}
+
+footer aside {
+    display: none;
 }
 
 .footerNav-container {
