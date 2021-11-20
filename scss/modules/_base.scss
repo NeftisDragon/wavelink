@@ -1086,9 +1086,18 @@ table th {
     padding: 20px;
     color: #000000;
     background-color: #ffffff;
-    width: 1200px;
+    width: 1080px;
     border-radius: 10px;
     margin: 20px 0px;
+}
+
+.credits-container ol li {
+    font-size: 20px;
+}
+
+.credits-container ol li a {
+    color: blue;
+    font-size: 20px;
 }
 
 .creditsTitle {
@@ -1099,6 +1108,11 @@ table th {
     color: #000000;
     margin-top: 30px;
     margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.vectorsCredit a {
+    font-size: 20px;
 }
 
 .code {
