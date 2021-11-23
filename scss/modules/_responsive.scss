@@ -1085,7 +1085,7 @@
     .buttonRewards a {
         display: inline-block;
         position: relative;
-        transition: 0.5s;
+        transition: none;
     }
 
     .buttonRewards a:after {
@@ -1094,11 +1094,11 @@
         opacity: 0;
         top: 0;
         right: -20px;
-        transition: 0.5s;
+        transition: none;
     }
 
     .buttonRewards:hover a {
-        padding-right: 25px;
+        padding-right: 0px;
     }
 
     .buttonRewards:hover a:after {
@@ -1120,7 +1120,7 @@
     .buttonEvents a {
         display: inline-block;
         position: relative;
-        transition: 0.5s;
+        transition: none;
     }
 
     .buttonEvents a:after {
@@ -1129,11 +1129,11 @@
         opacity: 0;
         top: 0;
         right: -20px;
-        transition: 0.5s;
+        transition: none;
     }
 
     .buttonEvents:hover a {
-        padding-right: 25px;
+        padding-right: 0px;
     }
 
     .buttonEvents:hover a:after {
@@ -1212,20 +1212,21 @@
     .buttonRegister a {
         display: inline-block;
         position: relative;
-        transition: 0.5s;
+        transition: none;
     }
 
     .buttonRegister a:after {
+        display: none;
         content: '\00bb';
         position: absolute;
         opacity: 0;
         top: 0;
         right: -20px;
-        transition: 0.5s;
+        transition: none;
     }
 
     .buttonRegister:hover a {
-        padding-right: 25px;
+        padding-right: 0px;
     }
 
     .buttonRegister:hover a:after {
@@ -2011,30 +2012,6 @@
         display: inline-block;
     }
 
-    .buttonRewards a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRewards a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRewards:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRewards:hover a:after {
-        opacity: 1;
-        right: 0;
-    }
-
     .buttonEvents {
         content: '\00bb';
         margin: 20px 0px;
@@ -2044,30 +2021,6 @@
         background-color: #4eb2c2;
         cursor: pointer;
         display: inline-block;
-    }
-
-    .buttonEvents a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonEvents a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonEvents:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonEvents:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Register Page*/
@@ -2136,30 +2089,6 @@
         padding: 20px 40px;
         cursor: pointer;
         margin: 20px 0px;
-    }
-
-    .buttonRegister a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRegister a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRegister:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRegister:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Form Page*/
@@ -3038,30 +2967,6 @@
         display: inline-block;
     }
 
-    .buttonRewards a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRewards a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRewards:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRewards:hover a:after {
-        opacity: 1;
-        right: 0;
-    }
-
     .buttonEvents {
         content: '\00bb';
         margin: 20px 0px;
@@ -3071,30 +2976,6 @@
         background-color: #4eb2c2;
         cursor: pointer;
         display: inline-block;
-    }
-
-    .buttonEvents a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonEvents a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonEvents:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonEvents:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Register Page*/
@@ -3163,30 +3044,6 @@
         padding: 20px 40px;
         cursor: pointer;
         margin: 20px 0px;
-    }
-
-    .buttonRegister a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRegister a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRegister:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRegister:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Form Page*/
@@ -3528,6 +3385,15 @@
         padding-top: 20px;
         padding-bottom: 20px;
         width: 800px;
+    }
+
+    .textRoyal {
+        color: #F1A803;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 32px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 }
 
@@ -4089,30 +3955,6 @@
         display: inline-block;
     }
 
-    .buttonRewards a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRewards a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRewards:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRewards:hover a:after {
-        opacity: 1;
-        right: 0;
-    }
-
     .buttonEvents {
         content: '\00bb';
         margin: 20px 0px;
@@ -4122,30 +3964,6 @@
         background-color: #4eb2c2;
         cursor: pointer;
         display: inline-block;
-    }
-
-    .buttonEvents a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonEvents a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonEvents:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonEvents:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Register Page*/
@@ -4214,30 +4032,6 @@
         padding: 20px 40px;
         cursor: pointer;
         margin: 20px 0px;
-    }
-
-    .buttonRegister a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRegister a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRegister:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRegister:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Form Page*/
@@ -4579,6 +4373,15 @@
         padding-top: 20px;
         padding-bottom: 20px;
         width: 800px;
+    }
+
+    .textRoyal {
+        color: #F1A803;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 34px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 }
 
@@ -5154,30 +4957,6 @@
         display: inline-block;
     }
 
-    .buttonRewards a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRewards a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRewards:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRewards:hover a:after {
-        opacity: 1;
-        right: 0;
-    }
-
     .buttonEvents {
         content: '\00bb';
         margin: 20px 0px;
@@ -5187,30 +4966,6 @@
         background-color: #4eb2c2;
         cursor: pointer;
         display: inline-block;
-    }
-
-    .buttonEvents a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonEvents a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonEvents:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonEvents:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Register Page*/
@@ -5279,30 +5034,6 @@
         padding: 20px 40px;
         cursor: pointer;
         margin: 20px 0px;
-    }
-
-    .buttonRegister a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRegister a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRegister:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRegister:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Form Page*/
@@ -5727,6 +5458,15 @@
         padding-top: 20px;
         padding-bottom: 20px;
         width: 800px;
+    }
+
+    .textRoyal {
+        color: #F1A803;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 }
 
@@ -6291,7 +6031,7 @@
     }
 
     .buttonText {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 500;
     }
 
@@ -6306,30 +6046,6 @@
         display: inline-block;
     }
 
-    .buttonRewards a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRewards a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRewards:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRewards:hover a:after {
-        opacity: 1;
-        right: 0;
-    }
-
     .buttonEvents {
         content: '\00bb';
         margin: 20px 0px;
@@ -6339,30 +6055,6 @@
         background-color: #4eb2c2;
         cursor: pointer;
         display: inline-block;
-    }
-
-    .buttonEvents a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonEvents a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonEvents:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonEvents:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Register Page*/
@@ -6432,30 +6124,6 @@
         padding: 20px 40px;
         cursor: pointer;
         margin: 20px 0px;
-    }
-
-    .buttonRegister a {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonRegister a:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .buttonRegister:hover a {
-        padding-right: 25px;
-    }
-
-    .buttonRegister:hover a:after {
-        opacity: 1;
-        right: 0;
     }
 
     /*Form Page*/
@@ -6875,5 +6543,14 @@
         padding-top: 20px;
         padding-bottom: 20px;
         width: 800px;
+    }
+
+    .textRoyal {
+        color: #F1A803;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 }
