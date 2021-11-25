@@ -2400,7 +2400,7 @@ footer a {
     color: #F1A803; }
   .imgName {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 42px;
@@ -3641,6 +3641,8 @@ footer a {
     display: inline-block;
     text-align: center;
     margin: 0px 35px; }
+  .featured {
+    display: none; }
   /*Synth*/
   .synthTitle {
     text-align: center;
@@ -3668,7 +3670,7 @@ footer a {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 32px;
+    font-size: 30px;
     width: 520px;
     font-weight: 600;
     font-family: 'Poppins', 'Roboto', sans-serif; }
