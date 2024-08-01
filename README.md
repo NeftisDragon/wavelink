@@ -9,6 +9,8 @@ I hope you like it. The responsive design isn't 100% accurate but it is enough t
 
 Cheers!
 
+You may access the website here: https://zy-milito.github.io/WaveLink/
+
 * * *
 
-You may access the website here: https://neftisdragon.github.io/WaveLink/
+*Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.*
